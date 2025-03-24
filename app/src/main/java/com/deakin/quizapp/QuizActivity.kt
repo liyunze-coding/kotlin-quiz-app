@@ -4,12 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.TextView
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import kotlin.getValue
 
 private val questionList = listOf(
     Question("What is Android?", "Choose the correct answer:", listOf("OS", "Browser", "Software"), 0),
@@ -18,7 +15,6 @@ private val questionList = listOf(
     Question("What is the brain of a computer?", "Choose the correct answer:", listOf("Keyboard", "Monitor", "CPU"), 2),
     Question("What does RAM stand for?", "Choose the correct answer:", listOf("Readable Application Module", "Random Access Memory", "Remote Access Machine"), 1)
 )
-
 
 class QuizActivity : AppCompatActivity() {
     private var currentQuestionIndex = 0
