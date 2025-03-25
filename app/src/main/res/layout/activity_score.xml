@@ -3,8 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    >
 
     <TextView
         android:id="@+id/congratsText"
@@ -40,19 +40,20 @@
         android:gravity="center"
         android:paddingHorizontal="20dp"
         android:layout_marginTop="50dp"
+
         >
 
-    <Button
-        android:id="@+id/takeNewQuizButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Take New Quiz" />
+        <Button
+            android:id="@+id/takeNewQuizButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take New Quiz" />
 
-    <Button
-        android:id="@+id/finishButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Finish" />
+        <Button
+            android:id="@+id/finishButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Finish" />
     </LinearLayout>
 
 

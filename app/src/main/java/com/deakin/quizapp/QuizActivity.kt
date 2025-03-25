@@ -9,11 +9,11 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 private val questionList = listOf(
-    Question("What is Android?", "Choose the correct answer:", listOf("OS", "Browser", "Software"), 0),
-    Question("What language is used for Android?", "Choose the correct answer:", listOf("Python", "Java", "C++"), 1),
-    Question("What is an Activity?", "Choose the correct answer:", listOf("UI Component", "Database", "Server"), 0),
-    Question("What is the brain of a computer?", "Choose the correct answer:", listOf("Keyboard", "Monitor", "CPU"), 2),
-    Question("What does RAM stand for?", "Choose the correct answer:", listOf("Readable Application Module", "Random Access Memory", "Remote Access Machine"), 1)
+    Question("Choose the correct answer:", "What is Android?", listOf("OS", "Browser", "Software"), 0),
+    Question("Choose the correct answer:", "What language is used for Android?", listOf("Python", "Java", "C++"), 1),
+    Question("Choose the correct answer:", "What is an Activity?", listOf("UI Component", "Database", "Server"), 0),
+    Question("Choose the correct answer:", "What is the brain of a computer?", listOf("Keyboard", "Monitor", "CPU"), 2),
+    Question("Choose the correct answer:", "What does RAM stand for?", listOf("Readable Application Module", "Random Access Memory", "Remote Access Machine"), 1)
 )
 
 class QuizActivity : AppCompatActivity() {
